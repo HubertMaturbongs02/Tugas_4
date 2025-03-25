@@ -32,5 +32,9 @@ class MainActivity2 : AppCompatActivity() {
             val intentMain = Intent(this, MainActivity::class.java)
             startActivity(intentMain)
         }
+        binding.imageView2.setOnClickListener {
+            val intentMain = Intent(this, MainActivity::class.java)
+            startActivity(intentMain)
+        }
     }
 }
