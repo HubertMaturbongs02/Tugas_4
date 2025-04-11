@@ -24,15 +24,11 @@ class MainActivity2 : AppCompatActivity() {
         binding = ActivityMain2Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.button2.setOnClickListener {
+        binding.buttoncontinue.setOnClickListener {
             val intentMain = Intent(this, MainActivity::class.java)
             startActivity(intentMain)
         }
-        binding.textView6.setOnClickListener {
-            val intentMain = Intent(this, MainActivity::class.java)
-            startActivity(intentMain)
-        }
-        binding.imageView2.setOnClickListener {
+        binding.textsignup.setOnClickListener {
             val intentMain = Intent(this, MainActivity::class.java)
             startActivity(intentMain)
         }

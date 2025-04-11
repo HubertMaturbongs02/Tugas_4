@@ -8,12 +8,11 @@
     android:layout_marginVertical="15dp"
     android:backgroundTint="@color/black"
     app:cardCornerRadius="20dp"
-    android:background="@drawable/backround3"
     app:cardElevation="20dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
         <ImageView
             android:id="@+id/imageView5"

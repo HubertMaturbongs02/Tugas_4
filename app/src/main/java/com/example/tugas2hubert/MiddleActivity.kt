@@ -24,12 +24,12 @@ class MiddleActivity : AppCompatActivity() {
         binding = ActivityMiddleBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.button2.setOnClickListener {
+        binding.buttontgs3.setOnClickListener {
             val intentMain = Intent(this, HomeActivity::class.java)
             startActivity(intentMain)
         }
 
-        binding.button.setOnClickListener {
+        binding.buttontgs4.setOnClickListener {
             val intentMain = Intent(this, RecyclerActivity::class.java)
             startActivity(intentMain)
         }
